@@ -5,4 +5,7 @@
     .course-photo img{
         width: 100%;
     }
+    img{
+        max-width: 100%;
+    }
 }
