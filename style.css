@@ -1,13 +1,41 @@
-.first-caro img{
-    height: 45vw;
+ /* .first-caro img{
+    object-fit:cover;
+} */
+.my-slider img{
+    height: 687px;
+    width: 100%;
 }
 .rating img{
     width:20px;
     height:20px;
-
 }
 @media screen and (max-width:576px){
     .course-photo img{
+        width: 100%;
+    }
+    .carousel img{
+        height: 186px;
+        width: 100%;
+    }
+    .my-caption h1{
+        font-size: 15px;
+    }
+    .my-caption p{
+        font-size: 7px;
+    }
+    .my-caption button{
+        font-size: 9px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .carousel img{
+        height: 369px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .carousel img{
+        height: 369px;
         width: 100%;
     }
 }
